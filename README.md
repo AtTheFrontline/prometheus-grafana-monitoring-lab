@@ -1,8 +1,32 @@
 # Infra-monitoring-lab
 
 
-![prometheus](https://img.shields.io/badge/prometheus-E6522C.svg?&style=flat-square&logo=prometheus&logoColor=white)
-![grafana](https://img.shields.io/badge/grafana-F46800.svg?&style=flat-square&logo=grafana&logoColor=white)
+<table>
+  <thead>
+    <tr>
+      <th>로고</th>
+      <th>도구명</th>
+      <th>사용 이유</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <img src="https://img.shields.io/badge/prometheus-E6522C.svg?&style=flat-square&logo=prometheus&logoColor=white" alt="Prometheus"/>
+      </td>
+      <td>Prometheus</td>
+      <td>컨테이너 및 인프라 모니터링을 위한 시계열 데이터 수집 도구로, EKS 클러스터의 리소스 상태를 효율적으로 수집하고 알림 설정에 활용합니다.</td>
+    </tr>
+    <tr>
+      <td>
+        <img src="https://img.shields.io/badge/grafana-F46800.svg?&style=flat-square&logo=grafana&logoColor=white" alt="Grafana"/>
+      </td>
+      <td>Grafana</td>
+      <td>Prometheus로 수집한 데이터를 시각화하여 실시간 모니터링 대시보드를 구성하고, 이상 징후를 빠르게 파악할 수 있게 도와줍니다.</td>
+    </tr>
+  </tbody>
+</table>
+
 
 
 ## 🤝 Team Members
