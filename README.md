@@ -108,7 +108,7 @@ curl http://localhost:3000
     
 ### 1-2. 재부팅 후 접속해서 상태 확인
 
-    - `mysqld_exporter`, `node_exporter`, `prometheus`, `grafana` 모두 **자동 실행되었는지 확인**
+    - `mysqld_exporter`, `node_exporter`, `prometheus`, `grafana` 모두 자동 실행되었는지 확인
         
 
 ```
@@ -121,7 +121,7 @@ curl http://localhost:3000
 ### 1-3. Grafana 대시보드 접속
 
     - http://localhost:3000 으로 접속
-    - MySQL, Node, Prometheus 관련 대시보드가 **정상 표시되는지 확인**
+    - MySQL, Node, Prometheus 관련 대시보드가 정상 표시되는지 확인
 
 
 ![image](https://github.com/user-attachments/assets/96b52683-dd86-40c3-9784-3e8633161b30)
@@ -277,11 +277,8 @@ sysbench oltp_read_write --table-size=1000000 --mysql-db=sbtest --mysql-user=use
 
 #### 1. Spring 애플리케이션을 서버에 배포
    
-    - WAR or JAR 형태 실행
-
-    ```
+    # WAR or JAR 형태 실행
     java -jar my-spring-app.jar
-    ```
     
 
 #### 2. Prometheus에서 Spring App 데이터 수집 연동
